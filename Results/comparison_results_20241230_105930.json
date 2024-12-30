@@ -1,0 +1,119 @@
+{
+  "timestamp": "2024-12-30T10:59:30.485911",
+  "llm_name": "gpt4",
+  "cag_config": {
+    "cache_size": 1000000,
+    "context_window": 8192,
+    "preload_chunk_size": 512
+  },
+  "rag_config": {
+    "retriever_type": "hybrid",
+    "max_documents": 5,
+    "sparse_config": {
+      "type": "bm25",
+      "b": 0.75,
+      "k1": 1.5
+    },
+    "dense_config": {
+      "model": "text-embedding-3-small",
+      "dimensions": 1536
+    }
+  },
+  "results": [
+    {
+      "timestamp": "2024-12-30T10:59:05.931918",
+      "query": "What are the main advantages of the CAG framework?",
+      "cag_response": "The main advantages of the CAG framework include: \n\n1. Elimination of Retrieval Steps: There's no need for real-time document retrieval, which reduces latency in response generation and provides more consistent access to information.\n\n2. KV Cache Optimization: The framework uses precomputed key-value pairs for efficient memory utilization and faster query processing.\n\n3. Context Integration: CAG allows for the seamless integration of knowledge, better context understanding and more accurate responses.\n\n4. Performance Benefits: The framework offers lower computational overhead, reduced API calls, and improved response times.\n\n5. Implementation Details: The CAG framework uses extended context windows, employs efficient caching mechanisms, and optimizes memory usage through smart indexing.",
+      "rag_response": "The context does not provide information about the main advantages of the CAG framework.",
+      "cag_time": 9.62150764465332,
+      "rag_time": 1.5861403942108154,
+      "time_difference": -8.035367250442505,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 9.62150764465332,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 1.5861403942108154,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    },
+    {
+      "timestamp": "2024-12-30T10:59:10.354399",
+      "query": "How does CAG compare to traditional RAG in terms of performance?",
+      "cag_response": "CAG outperforms traditional RAG in terms of performance. It eliminates the need for separate document retrieval steps, which reduces both latency and complexity. This leads to faster response generation and more consistent access to information. CAG also optimizes performance through efficient memory utilization and faster query processing due to its precomputed key-value pairs. Furthermore, CAG reduces computational overhead and the need for API calls, leading to improved response times.",
+      "rag_response": "The context provided does not include information on how CAG compares to traditional RAG in terms of performance.",
+      "cag_time": 2.6936824321746826,
+      "rag_time": 1.7272133827209473,
+      "time_difference": -0.9664690494537354,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 2.6936824321746826,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 1.7272133827209473,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    },
+    {
+      "timestamp": "2024-12-30T10:59:14.531080",
+      "query": "Explain how CAG eliminates retrieval steps.",
+      "cag_response": "CAG eliminates retrieval steps by preloading knowledge directly into the model's extended context. This means there is no need for real-time document retrieval, which significantly reduces latency in response generation and allows more consistent access to information. This streamlining of the process reduces both complexity and latency.",
+      "rag_response": "The context does not provide information on how CAG eliminates retrieval steps.",
+      "cag_time": 2.7675886154174805,
+      "rag_time": 1.408578872680664,
+      "time_difference": -1.3590097427368164,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 2.7675886154174805,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 1.408578872680664,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    },
+    {
+      "timestamp": "2024-12-30T10:59:24.013841",
+      "query": "What are the key differences between CAG and RAG architectures?",
+      "cag_response": "The key differences between CAG (Context-Augmented Generation) and RAG (Retrieval-Augmented Generation) architectures primarily lie in their handling of information retrieval and processing. \n\n1. Retrieval Steps: CAG eliminates the need for real-time document retrieval, leading to reduced latency in response generation and more consistent access to information. On the other hand, RAG requires real-time document fetching, which can add to latency and complexity.\n\n2. Memory Optimization: CAG uses KV Cache Optimization with precomputed key-value pairs for efficient memory utilization and faster query processing. It's not stated whether RAG has a similar mechanism.\n\n3. Integration and Performance: CAG provides seamless integration of knowledge, better context understanding, and more accurate responses. It also has lower computational overhead, reduced API calls, and improved response times compared to traditional methods, presumably including RAG.\n\n4. Implementation: CAG uses extended context windows, efficient caching mechanisms, and optimizes memory usage through smart indexing. The implementation details for RAG are not provided in the context.",
+      "rag_response": "The context provided does not give any information about CAG (Context-Augmented Generation) architecture, so it's not possible to compare it with the RAG (Retrieval-Augmented Generation) architecture. Please provide information about the CAG architecture to enable a comparison.",
+      "cag_time": 7.215520620346069,
+      "rag_time": 2.266186237335205,
+      "time_difference": -4.949334383010864,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 7.215520620346069,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 2.266186237335205,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    },
+    {
+      "timestamp": "2024-12-30T10:59:30.484907",
+      "query": "How does CAG handle context management differently from RAG?",
+      "cag_response": "CAG handles context management differently from RAG by preloading knowledge directly into the model's extended context, which eliminates the need for separate, real-time document retrieval steps, thus reducing both latency and complexity. This allows for immediate access to information, better context understanding, and more accurate responses. It also uses precomputed key-value pairs for efficient memory utilization and faster query processing. On the other hand, RAG requires real-time document fetching and processing. CAG also employs efficient caching mechanisms and optimizes memory use through smart indexing.",
+      "rag_response": "The provided context does not include information on how CAG (if it refers to a different system or framework) handles context management differently from the Retrieval-Augmented Generation (RAG) framework. Please provide more details.",
+      "cag_time": 3.281888961791992,
+      "rag_time": 3.188659191131592,
+      "time_difference": -0.09322977066040039,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 3.281888961791992,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 3.188659191131592,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+Cache-Augmented Generation (CAG) Framework Overview
+
+The CAG Framework is an innovative approach to language model interaction that focuses on efficient knowledge retrieval and generation through caching mechanisms. Unlike traditional RAG frameworks that perform real-time document retrieval, CAG preloads and caches knowledge, eliminating retrieval steps and reducing latency.
+
+Key Features:
+1. KV Cache Optimization
+- Precomputed key-value pairs
+- Efficient memory utilization
+- Faster query processing
+
+2. Performance Benefits
+- Lower computational overhead
+- Reduced API calls
+- Improved response times
+- Elimination of real-time retrieval steps
+
+3. Implementation Details
+- Extended context windows
+- Efficient caching mechanisms
+- Smart indexing for memory optimization
+- Seamless knowledge integration
+
+4. Advantages over RAG
+- No real-time document retrieval needed
+- Reduced latency in response generation
+- More consistent access to information
+- Better context understanding through cached knowledge
+- More accurate responses

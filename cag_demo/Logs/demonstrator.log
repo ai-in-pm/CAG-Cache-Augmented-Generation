@@ -1,0 +1,433 @@
+2024-12-30 10:53:57,260 [INFO] Preloading knowledge base...
+2024-12-30 10:53:57,620 [INFO] Preloaded 3 key-value pairs into cache
+2024-12-30 10:53:58,649 [INFO] Starting CAG Framework Demonstration...
+2024-12-30 10:53:58,649 [INFO] 
+Processing query: What are the main advantages of the CAG framework?
+2024-12-30 10:53:58,649 [INFO] 
+CAG Response:
+2024-12-30 10:54:03,130 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:03,137 [INFO] Response: The main advantages of the CAG (Context-Augmented Generation) framework include:
+
+1. Elimination of Retrieval Steps: It eliminates the need for real-time document retrieval, reduces latency in response generation, and provides more consistent access to information.
+
+2. KV Cache Optimization: CAG uses precomputed key-value pairs for efficient memory utilization and faster query processing.
+
+3. Context Integration: The framework allows for seamless integration of knowledge, better context understanding, and more accurate responses.
+
+4. Performance Benefits: CAG offers lower computational overhead, reduced API calls, and improved response times. 
+
+5. Implementation Details: It uses extended context windows, employs efficient caching mechanisms, and optimizes memory usage through smart indexing.
+2024-12-30 10:54:03,137 [INFO] Time taken: 4.49 seconds
+2024-12-30 10:54:03,137 [INFO] Metrics: {'cache_hits': 0, 'response_time': 4.488346338272095, 'memory_usage': 3}
+2024-12-30 10:54:03,138 [INFO] 
+RAG Response:
+2024-12-30 10:54:04,171 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:04,172 [INFO] Response: The context does not provide information on the advantages of the CAG framework.
+2024-12-30 10:54:04,172 [INFO] Time taken: 1.03 seconds
+2024-12-30 10:54:04,172 [INFO] Metrics: {'response_time': 1.033555269241333, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:54:04,172 [INFO] 
+Comparison:
+2024-12-30 10:54:04,172 [INFO] CAG vs RAG time difference: -3.45 seconds
+2024-12-30 10:54:04,172 [INFO] ================================================================================
+2024-12-30 10:54:04,172 [INFO] 
+Processing query: How does CAG compare to traditional RAG in terms of performance?
+2024-12-30 10:54:04,172 [INFO] 
+CAG Response:
+2024-12-30 10:54:09,064 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:09,065 [INFO] Response: CAG outperforms traditional RAG in terms of performance by eliminating the need for separate document retrieval steps, which reduces both latency and complexity. It also offers better context understanding and more accurate responses. Furthermore, CAG lowers computational overhead, reduces API calls, and improves response times. Therefore, compared to traditional RAG, CAG provides a more efficient and faster performance.
+2024-12-30 10:54:09,065 [INFO] Time taken: 4.89 seconds
+2024-12-30 10:54:09,065 [INFO] Metrics: {'cache_hits': 0, 'response_time': 4.8924784660339355, 'memory_usage': 3}
+2024-12-30 10:54:09,065 [INFO] 
+RAG Response:
+2024-12-30 10:54:10,194 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:10,195 [INFO] Response: The context does not provide information on how CAG compares to traditional RAG in terms of performance.
+2024-12-30 10:54:10,195 [INFO] Time taken: 1.13 seconds
+2024-12-30 10:54:10,196 [INFO] Metrics: {'response_time': 1.1308913230895996, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:54:10,196 [INFO] 
+Comparison:
+2024-12-30 10:54:10,196 [INFO] CAG vs RAG time difference: -3.76 seconds
+2024-12-30 10:54:10,196 [INFO] ================================================================================
+2024-12-30 10:54:10,196 [INFO] 
+Processing query: Explain how CAG eliminates retrieval steps.
+2024-12-30 10:54:10,196 [INFO] 
+CAG Response:
+2024-12-30 10:54:12,996 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:12,996 [INFO] Response: CAG eliminates retrieval steps by preloading knowledge directly into the model's extended context. This means there is no need for real-time document retrieval which reduces latency in response generation and provides more consistent access to information.
+2024-12-30 10:54:12,996 [INFO] Time taken: 2.80 seconds
+2024-12-30 10:54:12,996 [INFO] Metrics: {'cache_hits': 0, 'response_time': 2.7997875213623047, 'memory_usage': 3}
+2024-12-30 10:54:12,996 [INFO] 
+RAG Response:
+2024-12-30 10:54:14,198 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:14,203 [INFO] Response: The context does not provide information on how CAG eliminates retrieval steps.
+2024-12-30 10:54:14,203 [INFO] Time taken: 1.21 seconds
+2024-12-30 10:54:14,203 [INFO] Metrics: {'response_time': 1.2064952850341797, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:54:14,203 [INFO] 
+Comparison:
+2024-12-30 10:54:14,203 [INFO] CAG vs RAG time difference: -1.59 seconds
+2024-12-30 10:54:14,203 [INFO] ================================================================================
+2024-12-30 10:54:14,203 [INFO] 
+Processing query: What are the key differences between CAG and RAG architectures?
+2024-12-30 10:54:14,203 [INFO] 
+CAG Response:
+2024-12-30 10:54:19,751 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:19,751 [INFO] Response: The key differences between CAG (Context-Augmented Generation) and RAG (Retrieval-Augmented Generation) architectures include:
+
+1. Elimination of Retrieval Steps: In CAG, there is no need for real-time document retrieval, which reduces latency in response generation and provides more consistent access to information. In contrast, RAG requires real-time document fetching.
+
+2. KV Cache Optimization: CAG uses precomputed key-value pairs for efficient memory utilization and faster query processing. 
+
+3. Performance Benefits: CAG offers lower computational overhead, reduced API calls, and improved response times. 
+
+4. Implementation Details: CAG uses extended context windows, employs efficient caching mechanisms, and optimizes memory usage through smart indexing. 
+
+5. Seamless integration of knowledge: CAG allows for better context understanding and more accurate responses due to its preloaded knowledge. 
+
+Overall, CAG reduces both latency and complexity compared to traditional RAG.
+2024-12-30 10:54:19,751 [INFO] Time taken: 5.55 seconds
+2024-12-30 10:54:19,751 [INFO] Metrics: {'cache_hits': 0, 'response_time': 5.548204183578491, 'memory_usage': 3}
+2024-12-30 10:54:19,752 [INFO] 
+RAG Response:
+2024-12-30 10:54:22,352 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:22,359 [INFO] Response: The provided context does not contain information on CAG (Context-Augmented Generation) architecture, hence I cannot provide differences between CAG and RAG (Retrieval-Augmented Generation) architectures.
+2024-12-30 10:54:22,359 [INFO] Time taken: 2.61 seconds
+2024-12-30 10:54:22,360 [INFO] Metrics: {'response_time': 2.607435703277588, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:54:22,360 [INFO] 
+Comparison:
+2024-12-30 10:54:22,360 [INFO] CAG vs RAG time difference: -2.94 seconds
+2024-12-30 10:54:22,360 [INFO] ================================================================================
+2024-12-30 10:54:22,360 [INFO] 
+Processing query: How does CAG handle context management differently from RAG?
+2024-12-30 10:54:22,360 [INFO] 
+CAG Response:
+2024-12-30 10:54:27,046 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:27,048 [INFO] Response: CAG handles context management differently from RAG by preloading knowledge directly into the model's extended context, which eliminates the need for separate real-time document retrieval steps. This reduces both latency and complexity in response generation. CAG also uses a KV Cache Optimization for efficient memory utilization and faster query processing. On the other hand, RAG requires real-time document retrieval, which can add latency and complexity.
+2024-12-30 10:54:27,048 [INFO] Time taken: 4.69 seconds
+2024-12-30 10:54:27,048 [INFO] Metrics: {'cache_hits': 0, 'response_time': 4.6869494915008545, 'memory_usage': 3}
+2024-12-30 10:54:27,048 [INFO] 
+RAG Response:
+2024-12-30 10:54:29,272 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:54:29,285 [INFO] Response: The context does not provide information on how CAG (which presumably stands for a different framework) handles context management differently from the Retrieval-Augmented Generation (RAG) framework.
+2024-12-30 10:54:29,285 [INFO] Time taken: 2.24 seconds
+2024-12-30 10:54:29,285 [INFO] Metrics: {'response_time': 2.236114978790283, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:54:29,285 [INFO] 
+Comparison:
+2024-12-30 10:54:29,285 [INFO] CAG vs RAG time difference: -2.45 seconds
+2024-12-30 10:54:29,285 [INFO] ================================================================================
+2024-12-30 10:55:23,729 [INFO] NumExpr defaulting to 8 threads.
+2024-12-30 10:55:26,052 [INFO] Preloading knowledge base...
+2024-12-30 10:55:26,460 [INFO] Preloaded 3 key-value pairs into cache
+2024-12-30 10:55:27,466 [INFO] Starting CAG Framework Demonstration...
+2024-12-30 10:55:27,466 [INFO] 
+Processing query: What are the main advantages of the CAG framework?
+2024-12-30 10:55:27,466 [INFO] 
+CAG Response:
+2024-12-30 10:55:31,596 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:55:31,622 [INFO] Response: The main advantages of the CAG framework include elimination of retrieval steps, which removes the need for real-time document retrieval, reduces latency in response generation, and provides more consistent access to information. It also includes KV Cache Optimization with precomputed key-value pairs, efficient memory utilization, and faster query processing. Furthermore, it offers seamless context integration which allows for better context understanding and more accurate responses. Performance benefits include lower computational overhead, reduced API calls, and improved response times. The implementation details of CAG also contribute to its advantages, as it uses extended context windows, employs efficient caching mechanisms, and optimizes memory usage through smart indexing.
+2024-12-30 10:55:31,623 [INFO] Time taken: 4.15 seconds
+2024-12-30 10:55:31,623 [INFO] Metrics: {'cache_hits': 0, 'response_time': 4.154735326766968, 'memory_usage': 3}
+2024-12-30 10:55:31,623 [INFO] 
+RAG Response:
+2024-12-30 10:55:32,868 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:55:32,875 [INFO] Response: The context does not provide information about the advantages of the CAG framework.
+2024-12-30 10:55:32,875 [INFO] Time taken: 1.25 seconds
+2024-12-30 10:55:32,875 [INFO] Metrics: {'response_time': 1.2507431507110596, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:55:32,876 [INFO] 
+Comparison:
+2024-12-30 10:55:32,876 [INFO] CAG vs RAG time difference: -2.90 seconds
+2024-12-30 10:55:32,876 [INFO] ================================================================================
+2024-12-30 10:55:32,876 [INFO] 
+Processing query: How does CAG compare to traditional RAG in terms of performance?
+2024-12-30 10:55:32,877 [INFO] 
+CAG Response:
+2024-12-30 10:55:38,372 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:55:38,396 [INFO] Response: CAG outperforms traditional RAG in terms of performance by eliminating the need for separate document retrieval steps, which reduces both latency and complexity. This leads to faster and more consistent access to information. It also optimizes performance benefits such as lower computational overhead, reduced API calls, and improved response times. Furthermore, CAG employs efficient caching mechanisms and optimizes memory usage through smart indexing, which are improvements over traditional RAG.
+2024-12-30 10:55:38,397 [INFO] Time taken: 5.52 seconds
+2024-12-30 10:55:38,397 [INFO] Metrics: {'cache_hits': 0, 'response_time': 5.519043445587158, 'memory_usage': 3}
+2024-12-30 10:55:38,398 [INFO] 
+RAG Response:
+2024-12-30 10:55:39,893 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:55:39,894 [INFO] Response: The context does not provide information on how CAG compares to traditional RAG in terms of performance.
+2024-12-30 10:55:39,895 [INFO] Time taken: 1.50 seconds
+2024-12-30 10:55:39,895 [INFO] Metrics: {'response_time': 1.4961628913879395, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:55:39,895 [INFO] 
+Comparison:
+2024-12-30 10:55:39,895 [INFO] CAG vs RAG time difference: -4.02 seconds
+2024-12-30 10:55:39,895 [INFO] ================================================================================
+2024-12-30 10:55:39,896 [INFO] 
+Processing query: Explain how CAG eliminates retrieval steps.
+2024-12-30 10:55:39,896 [INFO] 
+CAG Response:
+2024-12-30 10:55:42,085 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:55:42,087 [INFO] Response: CAG eliminates retrieval steps by preloading knowledge directly into the model's extended context. This eliminates the need for real-time document retrieval, resulting in reduced latency in response generation and more consistent access to information.
+2024-12-30 10:55:42,088 [INFO] Time taken: 2.19 seconds
+2024-12-30 10:55:42,088 [INFO] Metrics: {'cache_hits': 0, 'response_time': 2.1911323070526123, 'memory_usage': 3}
+2024-12-30 10:55:42,088 [INFO] 
+RAG Response:
+2024-12-30 10:55:43,766 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:55:43,769 [INFO] Response: The context provided does not mention a framework called CAG or discuss its ability to eliminate retrieval steps. Therefore, I am unable to provide an explanation based on the given context.
+2024-12-30 10:55:43,769 [INFO] Time taken: 1.68 seconds
+2024-12-30 10:55:43,770 [INFO] Metrics: {'response_time': 1.681837797164917, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:55:43,770 [INFO] 
+Comparison:
+2024-12-30 10:55:43,770 [INFO] CAG vs RAG time difference: -0.51 seconds
+2024-12-30 10:55:43,770 [INFO] ================================================================================
+2024-12-30 10:55:43,770 [INFO] 
+Processing query: What are the key differences between CAG and RAG architectures?
+2024-12-30 10:55:43,771 [INFO] 
+CAG Response:
+2024-12-30 10:55:53,561 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:55:53,563 [INFO] Response: The key differences between CAG (Context-Augmented Generation) and RAG (Retrieval-Augmented Generation) architectures include:
+
+1. CAG eliminates the need for real-time document retrieval, reducing both latency and complexity. On the other hand, RAG requires real-time document fetching and processing.
+
+2. CAG uses preloaded knowledge for immediate access to information, while RAG retrieves knowledge in real-time.
+
+3. CAG optimizes memory usage through smart indexing and efficient caching mechanisms, while RAG may have higher computational overhead.
+
+4. CAG provides lower latency in response generation and more consistent access to information, while the response time and access to information in RAG may be less consistent and slower.
+
+5. CAG offers seamless integration of knowledge, better context understanding, and more accurate responses, features that may not be as robust in RAG.
+2024-12-30 10:55:53,564 [INFO] Time taken: 9.79 seconds
+2024-12-30 10:55:53,564 [INFO] Metrics: {'cache_hits': 0, 'response_time': 9.79159927368164, 'memory_usage': 3}
+2024-12-30 10:55:53,564 [INFO] 
+RAG Response:
+2024-12-30 10:55:54,685 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:55:54,687 [INFO] Response: The context provided does not include information about the CAG architecture, therefore a comparison between the CAG and RAG architectures cannot be accurately made.
+2024-12-30 10:55:54,688 [INFO] Time taken: 1.12 seconds
+2024-12-30 10:55:54,688 [INFO] Metrics: {'response_time': 1.1224102973937988, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:55:54,688 [INFO] 
+Comparison:
+2024-12-30 10:55:54,689 [INFO] CAG vs RAG time difference: -8.67 seconds
+2024-12-30 10:55:54,689 [INFO] ================================================================================
+2024-12-30 10:55:54,689 [INFO] 
+Processing query: How does CAG handle context management differently from RAG?
+2024-12-30 10:55:54,689 [INFO] 
+CAG Response:
+2024-12-30 10:55:57,414 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:55:57,425 [INFO] Response: CAG handles context management differently from RAG by preloading knowledge directly into the model's extended context. This eliminates the need for separate, real-time document retrieval steps, thus reducing both latency and complexity. It allows for more seamless integration of knowledge, better context understanding, and more accurate responses. CAG also uses extended context windows and optimizes memory usage through smart indexing, which are not features traditionally associated with RAG.
+2024-12-30 10:55:57,426 [INFO] Time taken: 2.74 seconds
+2024-12-30 10:55:57,427 [INFO] Metrics: {'cache_hits': 0, 'response_time': 2.735860586166382, 'memory_usage': 3}
+2024-12-30 10:55:57,427 [INFO] 
+RAG Response:
+2024-12-30 10:56:00,516 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:56:00,518 [INFO] Response: The context provided does not include information on how CAG (if this is another framework) handles context management, so it's impossible to compare it with RAG based on the given information.
+2024-12-30 10:56:00,518 [INFO] Time taken: 3.09 seconds
+2024-12-30 10:56:00,518 [INFO] Metrics: {'response_time': 3.090489149093628, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:56:00,518 [INFO] 
+Comparison:
+2024-12-30 10:56:00,518 [INFO] CAG vs RAG time difference: 0.35 seconds
+2024-12-30 10:56:00,519 [INFO] ================================================================================
+2024-12-30 10:58:53,233 [INFO] Preloading knowledge base...
+2024-12-30 10:58:53,630 [INFO] Preloaded 3 key-value pairs into cache
+2024-12-30 10:58:54,723 [INFO] Starting CAG Framework Demonstration...
+2024-12-30 10:58:54,723 [INFO] 
+Processing query: What are the main advantages of the CAG framework?
+2024-12-30 10:58:54,723 [INFO] 
+CAG Response:
+2024-12-30 10:59:04,334 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:04,345 [INFO] Response: The main advantages of the CAG framework include: 
+
+1. Elimination of Retrieval Steps: There's no need for real-time document retrieval, which reduces latency in response generation and provides more consistent access to information.
+
+2. KV Cache Optimization: The framework uses precomputed key-value pairs for efficient memory utilization and faster query processing.
+
+3. Context Integration: CAG allows for the seamless integration of knowledge, better context understanding and more accurate responses.
+
+4. Performance Benefits: The framework offers lower computational overhead, reduced API calls, and improved response times.
+
+5. Implementation Details: The CAG framework uses extended context windows, employs efficient caching mechanisms, and optimizes memory usage through smart indexing.
+2024-12-30 10:59:04,345 [INFO] Time taken: 9.62 seconds
+2024-12-30 10:59:04,345 [INFO] Metrics: {'cache_hits': 0, 'response_time': 9.62150764465332, 'memory_usage': 3}
+2024-12-30 10:59:04,345 [INFO] 
+RAG Response:
+2024-12-30 10:59:05,930 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:05,931 [INFO] Response: The context does not provide information about the main advantages of the CAG framework.
+2024-12-30 10:59:05,931 [INFO] Time taken: 1.59 seconds
+2024-12-30 10:59:05,931 [INFO] Metrics: {'response_time': 1.5861403942108154, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:59:05,931 [INFO] 
+Comparison:
+2024-12-30 10:59:05,931 [INFO] CAG vs RAG time difference: -8.04 seconds
+2024-12-30 10:59:05,932 [INFO] ================================================================================
+2024-12-30 10:59:05,932 [INFO] 
+Processing query: How does CAG compare to traditional RAG in terms of performance?
+2024-12-30 10:59:05,932 [INFO] 
+CAG Response:
+2024-12-30 10:59:08,621 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:08,626 [INFO] Response: CAG outperforms traditional RAG in terms of performance. It eliminates the need for separate document retrieval steps, which reduces both latency and complexity. This leads to faster response generation and more consistent access to information. CAG also optimizes performance through efficient memory utilization and faster query processing due to its precomputed key-value pairs. Furthermore, CAG reduces computational overhead and the need for API calls, leading to improved response times.
+2024-12-30 10:59:08,626 [INFO] Time taken: 2.69 seconds
+2024-12-30 10:59:08,626 [INFO] Metrics: {'cache_hits': 0, 'response_time': 2.6936824321746826, 'memory_usage': 3}
+2024-12-30 10:59:08,626 [INFO] 
+RAG Response:
+2024-12-30 10:59:10,353 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:10,353 [INFO] Response: The context provided does not include information on how CAG compares to traditional RAG in terms of performance.
+2024-12-30 10:59:10,353 [INFO] Time taken: 1.73 seconds
+2024-12-30 10:59:10,354 [INFO] Metrics: {'response_time': 1.7272133827209473, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:59:10,354 [INFO] 
+Comparison:
+2024-12-30 10:59:10,354 [INFO] CAG vs RAG time difference: -0.97 seconds
+2024-12-30 10:59:10,354 [INFO] ================================================================================
+2024-12-30 10:59:10,354 [INFO] 
+Processing query: Explain how CAG eliminates retrieval steps.
+2024-12-30 10:59:10,354 [INFO] 
+CAG Response:
+2024-12-30 10:59:13,121 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:13,121 [INFO] Response: CAG eliminates retrieval steps by preloading knowledge directly into the model's extended context. This means there is no need for real-time document retrieval, which significantly reduces latency in response generation and allows more consistent access to information. This streamlining of the process reduces both complexity and latency.
+2024-12-30 10:59:13,121 [INFO] Time taken: 2.77 seconds
+2024-12-30 10:59:13,121 [INFO] Metrics: {'cache_hits': 0, 'response_time': 2.7675886154174805, 'memory_usage': 3}
+2024-12-30 10:59:13,121 [INFO] 
+RAG Response:
+2024-12-30 10:59:14,530 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:14,530 [INFO] Response: The context does not provide information on how CAG eliminates retrieval steps.
+2024-12-30 10:59:14,530 [INFO] Time taken: 1.41 seconds
+2024-12-30 10:59:14,531 [INFO] Metrics: {'response_time': 1.408578872680664, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:59:14,531 [INFO] 
+Comparison:
+2024-12-30 10:59:14,531 [INFO] CAG vs RAG time difference: -1.36 seconds
+2024-12-30 10:59:14,531 [INFO] ================================================================================
+2024-12-30 10:59:14,531 [INFO] 
+Processing query: What are the key differences between CAG and RAG architectures?
+2024-12-30 10:59:14,531 [INFO] 
+CAG Response:
+2024-12-30 10:59:21,739 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:21,746 [INFO] Response: The key differences between CAG (Context-Augmented Generation) and RAG (Retrieval-Augmented Generation) architectures primarily lie in their handling of information retrieval and processing. 
+
+1. Retrieval Steps: CAG eliminates the need for real-time document retrieval, leading to reduced latency in response generation and more consistent access to information. On the other hand, RAG requires real-time document fetching, which can add to latency and complexity.
+
+2. Memory Optimization: CAG uses KV Cache Optimization with precomputed key-value pairs for efficient memory utilization and faster query processing. It's not stated whether RAG has a similar mechanism.
+
+3. Integration and Performance: CAG provides seamless integration of knowledge, better context understanding, and more accurate responses. It also has lower computational overhead, reduced API calls, and improved response times compared to traditional methods, presumably including RAG.
+
+4. Implementation: CAG uses extended context windows, efficient caching mechanisms, and optimizes memory usage through smart indexing. The implementation details for RAG are not provided in the context.
+2024-12-30 10:59:21,746 [INFO] Time taken: 7.22 seconds
+2024-12-30 10:59:21,746 [INFO] Metrics: {'cache_hits': 0, 'response_time': 7.215520620346069, 'memory_usage': 3}
+2024-12-30 10:59:21,747 [INFO] 
+RAG Response:
+2024-12-30 10:59:24,008 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:24,013 [INFO] Response: The context provided does not give any information about CAG (Context-Augmented Generation) architecture, so it's not possible to compare it with the RAG (Retrieval-Augmented Generation) architecture. Please provide information about the CAG architecture to enable a comparison.
+2024-12-30 10:59:24,013 [INFO] Time taken: 2.27 seconds
+2024-12-30 10:59:24,013 [INFO] Metrics: {'response_time': 2.266186237335205, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:59:24,013 [INFO] 
+Comparison:
+2024-12-30 10:59:24,013 [INFO] CAG vs RAG time difference: -4.95 seconds
+2024-12-30 10:59:24,013 [INFO] ================================================================================
+2024-12-30 10:59:24,013 [INFO] 
+Processing query: How does CAG handle context management differently from RAG?
+2024-12-30 10:59:24,013 [INFO] 
+CAG Response:
+2024-12-30 10:59:27,294 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:27,295 [INFO] Response: CAG handles context management differently from RAG by preloading knowledge directly into the model's extended context, which eliminates the need for separate, real-time document retrieval steps, thus reducing both latency and complexity. This allows for immediate access to information, better context understanding, and more accurate responses. It also uses precomputed key-value pairs for efficient memory utilization and faster query processing. On the other hand, RAG requires real-time document fetching and processing. CAG also employs efficient caching mechanisms and optimizes memory use through smart indexing.
+2024-12-30 10:59:27,296 [INFO] Time taken: 3.28 seconds
+2024-12-30 10:59:27,296 [INFO] Metrics: {'cache_hits': 0, 'response_time': 3.281888961791992, 'memory_usage': 3}
+2024-12-30 10:59:27,296 [INFO] 
+RAG Response:
+2024-12-30 10:59:30,463 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:59:30,484 [INFO] Response: The provided context does not include information on how CAG (if it refers to a different system or framework) handles context management differently from the Retrieval-Augmented Generation (RAG) framework. Please provide more details.
+2024-12-30 10:59:30,484 [INFO] Time taken: 3.19 seconds
+2024-12-30 10:59:30,484 [INFO] Metrics: {'response_time': 3.188659191131592, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:59:30,484 [INFO] 
+Comparison:
+2024-12-30 10:59:30,484 [INFO] CAG vs RAG time difference: -0.09 seconds
+2024-12-30 10:59:30,485 [INFO] ================================================================================
+2024-12-30 10:59:30,491 [INFO] 
+Results saved to: c:\cc-working-dir\CAG\Results\comparison_results_20241230_105930.json
+2024-12-30 11:02:25,794 [INFO] Preloading knowledge base...
+2024-12-30 11:02:26,217 [INFO] Preloaded 3 key-value pairs into cache
+2024-12-30 11:02:27,501 [INFO] Starting CAG Framework Demonstration...
+2024-12-30 11:02:27,501 [INFO] 
+Processing query: What are the main advantages of the CAG framework?
+2024-12-30 11:02:27,501 [INFO] 
+CAG Response:
+2024-12-30 11:02:31,477 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:31,481 [INFO] Response: The main advantages of the CAG Framework include efficient knowledge retrieval and generation through caching mechanisms, lower computational overhead, reduced API calls, improved response times, elimination of real-time retrieval steps, and reduced latency in response generation. Other benefits include more consistent access to information, better context understanding through cached knowledge, and more accurate responses. Unlike traditional RAG frameworks, CAG preloads and caches knowledge, which leads to faster query processing and efficient memory utilization.
+2024-12-30 11:02:31,482 [INFO] Time taken: 3.98 seconds
+2024-12-30 11:02:31,482 [INFO] Metrics: {'cache_hits': 0, 'response_time': 3.980081558227539, 'memory_usage': 3}
+2024-12-30 11:02:31,482 [INFO] 
+RAG Response:
+2024-12-30 11:02:32,907 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:32,915 [INFO] Response: The text does not provide information about the main advantages of the CAG framework.
+2024-12-30 11:02:32,915 [INFO] Time taken: 1.43 seconds
+2024-12-30 11:02:32,915 [INFO] Metrics: {'response_time': 1.4326465129852295, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 11:02:32,915 [INFO] 
+Comparison:
+2024-12-30 11:02:32,915 [INFO] CAG vs RAG time difference: -2.55 seconds
+2024-12-30 11:02:32,915 [INFO] ================================================================================
+2024-12-30 11:02:32,916 [INFO] 
+Processing query: How does CAG compare to traditional RAG in terms of performance?
+2024-12-30 11:02:32,916 [INFO] 
+CAG Response:
+2024-12-30 11:02:36,037 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:36,037 [INFO] Response: The CAG framework offers several performance advantages over traditional RAG frameworks. Unlike RAG, CAG doesn't require real-time document retrieval as it preloads and caches knowledge. This eliminates retrieval steps and reduces latency. In addition, CAG provides more consistent access to information, better context understanding through cached knowledge, and more accurate responses. Overall, this leads to lower computational overhead, reduced API calls, improved response times, and reduced latency in response generation.
+2024-12-30 11:02:36,037 [INFO] Time taken: 3.12 seconds
+2024-12-30 11:02:36,038 [INFO] Metrics: {'cache_hits': 0, 'response_time': 3.121900796890259, 'memory_usage': 3}
+2024-12-30 11:02:36,038 [INFO] 
+RAG Response:
+2024-12-30 11:02:36,899 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:36,910 [INFO] Response: The context provided does not contain any information comparing CAG and traditional RAG in terms of performance.
+2024-12-30 11:02:36,910 [INFO] Time taken: 0.87 seconds
+2024-12-30 11:02:36,910 [INFO] Metrics: {'response_time': 0.8710496425628662, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 11:02:36,910 [INFO] 
+Comparison:
+2024-12-30 11:02:36,910 [INFO] CAG vs RAG time difference: -2.25 seconds
+2024-12-30 11:02:36,910 [INFO] ================================================================================
+2024-12-30 11:02:36,910 [INFO] 
+Processing query: Explain how CAG eliminates retrieval steps.
+2024-12-30 11:02:36,910 [INFO] 
+CAG Response:
+2024-12-30 11:02:41,317 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:41,318 [INFO] Response: The CAG (Cache-Augmented Generation) Framework eliminates retrieval steps by preloading and caching knowledge. Instead of performing real-time document retrieval like traditional RAG frameworks, CAG utilizes efficient caching mechanisms to store precomputed key-value pairs. This allows for faster query processing and eliminates the need for real-time retrieval steps, thus reducing latency.
+2024-12-30 11:02:41,318 [INFO] Time taken: 4.41 seconds
+2024-12-30 11:02:41,319 [INFO] Metrics: {'cache_hits': 0, 'response_time': 4.407880783081055, 'memory_usage': 3}
+2024-12-30 11:02:41,319 [INFO] 
+RAG Response:
+2024-12-30 11:02:42,834 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:42,837 [INFO] Response: The context does not provide information on how CAG eliminates retrieval steps.
+2024-12-30 11:02:42,837 [INFO] Time taken: 1.52 seconds
+2024-12-30 11:02:42,837 [INFO] Metrics: {'response_time': 1.5182523727416992, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 11:02:42,837 [INFO] 
+Comparison:
+2024-12-30 11:02:42,837 [INFO] CAG vs RAG time difference: -2.89 seconds
+2024-12-30 11:02:42,837 [INFO] ================================================================================
+2024-12-30 11:02:42,837 [INFO] 
+Processing query: What are the key differences between CAG and RAG architectures?
+2024-12-30 11:02:42,837 [INFO] 
+CAG Response:
+2024-12-30 11:02:46,797 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:46,846 [INFO] Response: The key differences between CAG (Cache-Augmented Generation) and RAG (Retrieval-Augmented Generation) architectures are as follows:
+1. CAG doesn't require real-time document retrieval unlike RAG. 
+2. CAG reduces latency in response generation, making it faster than RAG.
+3. CAG provides more consistent access to information.
+4. CAG has a better understanding of context through cached knowledge.
+5. The responses generated using CAG are more accurate. 
+6. CAG uses efficient caching mechanisms for knowledge retrieval and generation.
+2024-12-30 11:02:46,847 [INFO] Time taken: 4.01 seconds
+2024-12-30 11:02:46,847 [INFO] Metrics: {'cache_hits': 0, 'response_time': 4.008915185928345, 'memory_usage': 3}
+2024-12-30 11:02:46,847 [INFO] 
+RAG Response:
+2024-12-30 11:02:48,849 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:48,850 [INFO] Response: The question asks about the differences between CAG and RAG architectures, but the provided context only offers information about RAG (Retrieval-Augmented Generation) and doesn't provide any information about CAG. Therefore, I can't provide the differences between CAG and RAG based on the given context.
+2024-12-30 11:02:48,851 [INFO] Time taken: 2.00 seconds
+2024-12-30 11:02:48,851 [INFO] Metrics: {'response_time': 2.003439426422119, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 11:02:48,851 [INFO] 
+Comparison:
+2024-12-30 11:02:48,851 [INFO] CAG vs RAG time difference: -2.01 seconds
+2024-12-30 11:02:48,851 [INFO] ================================================================================
+2024-12-30 11:02:48,851 [INFO] 
+Processing query: How does CAG handle context management differently from RAG?
+2024-12-30 11:02:48,851 [INFO] 
+CAG Response:
+2024-12-30 11:02:51,392 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:51,404 [INFO] Response: CAG handles context management differently from RAG by preloading and caching knowledge, which eliminates the need for real-time document retrieval. This allows for a reduction in latency and a more consistent access to information. It also provides better context understanding through cached knowledge. Unlike RAG, CAG uses mechanisms such as extended context windows, efficient caching, smart indexing for memory optimization, and seamless knowledge integration for improved context management.
+2024-12-30 11:02:51,404 [INFO] Time taken: 2.55 seconds
+2024-12-30 11:02:51,404 [INFO] Metrics: {'cache_hits': 0, 'response_time': 2.552154302597046, 'memory_usage': 3}
+2024-12-30 11:02:51,404 [INFO] 
+RAG Response:
+2024-12-30 11:02:52,530 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 11:02:52,532 [INFO] Response: The context does not provide information on how the CAG (Context-Augmented Generation) handles context management differently from RAG (Retrieval-Augmented Generation).
+2024-12-30 11:02:52,532 [INFO] Time taken: 1.13 seconds
+2024-12-30 11:02:52,532 [INFO] Metrics: {'response_time': 1.1274521350860596, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 11:02:52,532 [INFO] 
+Comparison:
+2024-12-30 11:02:52,532 [INFO] CAG vs RAG time difference: -1.42 seconds
+2024-12-30 11:02:52,532 [INFO] ================================================================================
+2024-12-30 11:02:52,538 [INFO] 
+Results saved to: c:\cc-working-dir\CAG\Results\comparison_results_20241230_110252.json

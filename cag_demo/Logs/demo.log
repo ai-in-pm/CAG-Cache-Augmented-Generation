@@ -1,0 +1,121 @@
+2024-12-30 10:50:05,590 [INFO] Preloading knowledge base...
+2024-12-30 10:50:29,787 [INFO] Preloading knowledge base...
+2024-12-30 10:50:30,563 [INFO] Preloaded 3 key-value pairs into cache
+2024-12-30 10:50:32,074 [INFO] Starting CAG vs RAG demonstration...
+2024-12-30 10:50:32,074 [INFO] 
+Query 1: What are the main advantages of the CAG framework?
+2024-12-30 10:50:32,075 [INFO] 
+CAG Response:
+2024-12-30 10:50:32,544 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-30 10:50:32,547 [ERROR] Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8250 tokens (58 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:32,548 [INFO] Response: Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8250 tokens (58 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:32,548 [INFO] Time taken: 0.47 seconds
+2024-12-30 10:50:32,548 [INFO] Metrics: {'response_time': 0.4725480079650879, 'cache_hits': 0, 'memory_usage': 3}
+2024-12-30 10:50:32,548 [INFO] 
+RAG Response:
+2024-12-30 10:50:32,795 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-30 10:50:32,796 [ERROR] Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8434 tokens (242 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:32,796 [INFO] Response: Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8434 tokens (242 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:32,796 [INFO] Time taken: 0.25 seconds
+2024-12-30 10:50:32,797 [INFO] Metrics: {'response_time': 0.24825716018676758, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:50:32,797 [INFO] 
+Comparison:
+2024-12-30 10:50:32,797 [INFO] CAG vs RAG time difference: -0.22 seconds
+2024-12-30 10:50:32,797 [INFO] ================================================================================
+2024-12-30 10:50:32,797 [INFO] 
+Query 2: How does CAG compare to traditional RAG in terms of performance?
+2024-12-30 10:50:32,797 [INFO] 
+CAG Response:
+2024-12-30 10:50:33,007 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-30 10:50:33,007 [ERROR] Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8253 tokens (61 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:33,008 [INFO] Response: Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8253 tokens (61 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:33,008 [INFO] Time taken: 0.21 seconds
+2024-12-30 10:50:33,008 [INFO] Metrics: {'response_time': 0.21100187301635742, 'cache_hits': 0, 'memory_usage': 3}
+2024-12-30 10:50:33,008 [INFO] 
+RAG Response:
+2024-12-30 10:50:33,249 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-30 10:50:33,250 [ERROR] Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8437 tokens (245 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:33,250 [INFO] Response: Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8437 tokens (245 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:33,250 [INFO] Time taken: 0.24 seconds
+2024-12-30 10:50:33,250 [INFO] Metrics: {'response_time': 0.24226856231689453, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:50:33,250 [INFO] 
+Comparison:
+2024-12-30 10:50:33,250 [INFO] CAG vs RAG time difference: 0.03 seconds
+2024-12-30 10:50:33,251 [INFO] ================================================================================
+2024-12-30 10:50:33,251 [INFO] 
+Query 3: Explain how CAG eliminates retrieval steps.
+2024-12-30 10:50:33,251 [INFO] 
+CAG Response:
+2024-12-30 10:50:33,478 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-30 10:50:33,479 [ERROR] Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8247 tokens (55 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:33,479 [INFO] Response: Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8247 tokens (55 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:33,479 [INFO] Time taken: 0.23 seconds
+2024-12-30 10:50:33,479 [INFO] Metrics: {'response_time': 0.22785115242004395, 'cache_hits': 0, 'memory_usage': 3}
+2024-12-30 10:50:33,479 [INFO] 
+RAG Response:
+2024-12-30 10:50:33,697 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-30 10:50:33,698 [ERROR] Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8431 tokens (239 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:33,698 [INFO] Response: Error generating response: Error generating response from gpt4: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 8431 tokens (239 in the messages, 8192 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-12-30 10:50:33,698 [INFO] Time taken: 0.22 seconds
+2024-12-30 10:50:33,698 [INFO] Metrics: {'response_time': 0.21867060661315918, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:50:33,699 [INFO] 
+Comparison:
+2024-12-30 10:50:33,699 [INFO] CAG vs RAG time difference: -0.01 seconds
+2024-12-30 10:50:33,699 [INFO] ================================================================================
+2024-12-30 10:51:18,126 [INFO] Preloading knowledge base...
+2024-12-30 10:51:18,552 [INFO] Preloaded 3 key-value pairs into cache
+2024-12-30 10:51:19,768 [INFO] Starting CAG vs RAG demonstration...
+2024-12-30 10:51:19,768 [INFO] 
+Query 1: What are the main advantages of the CAG framework?
+2024-12-30 10:51:19,768 [INFO] 
+CAG Response:
+2024-12-30 10:51:25,550 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:51:25,562 [INFO] Response: The main advantages of the CAG framework include elimination of retrieval steps, which means there's no need for real-time document retrieval, reduced latency in response generation, and more consistent access to information. It also optimizes key-value cache for efficient memory utilization and faster query processing. Furthermore, it allows for seamless integration of knowledge, better context understanding, and more accurate responses. From a performance perspective, it offers lower computational overhead, reduced API calls, and improved response times. The implementation employs extended context windows, efficient caching mechanisms, and optimizes memory usage through smart indexing.
+2024-12-30 10:51:25,562 [INFO] Time taken: 5.79 seconds
+2024-12-30 10:51:25,562 [INFO] Metrics: {'cache_hits': 0, 'response_time': 5.793466567993164, 'memory_usage': 3}
+2024-12-30 10:51:25,562 [INFO] 
+RAG Response:
+2024-12-30 10:51:26,895 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:51:26,896 [INFO] Response: The context does not provide information on the advantages of the CAG framework.
+2024-12-30 10:51:26,896 [INFO] Time taken: 1.33 seconds
+2024-12-30 10:51:26,896 [INFO] Metrics: {'response_time': 1.333953619003296, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:51:26,896 [INFO] 
+Comparison:
+2024-12-30 10:51:26,896 [INFO] CAG vs RAG time difference: -4.46 seconds
+2024-12-30 10:51:26,896 [INFO] ================================================================================
+2024-12-30 10:51:26,896 [INFO] 
+Query 2: How does CAG compare to traditional RAG in terms of performance?
+2024-12-30 10:51:26,897 [INFO] 
+CAG Response:
+2024-12-30 10:51:42,332 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:51:42,333 [INFO] Response: CAG outperforms traditional RAG in terms of performance. Unlike RAG, CAG eliminates the need for separate document retrieval steps, which reduces both latency and complexity. This results in quicker response generation and more consistent access to information. CAG also uses precomputed key-value pairs for faster query processing and efficient memory utilization. Additionally, it has lower computational overhead, reduced API calls, and improved response times. Overall, CAG offers enhanced performance compared to traditional RAG.
+2024-12-30 10:51:42,333 [INFO] Time taken: 15.44 seconds
+2024-12-30 10:51:42,333 [INFO] Metrics: {'cache_hits': 0, 'response_time': 15.436248302459717, 'memory_usage': 3}
+2024-12-30 10:51:42,333 [INFO] 
+RAG Response:
+2024-12-30 10:51:45,085 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:51:45,086 [INFO] Response: The context does not provide information on how CAG compares to traditional RAG in terms of performance.
+2024-12-30 10:51:45,086 [INFO] Time taken: 2.75 seconds
+2024-12-30 10:51:45,086 [INFO] Metrics: {'response_time': 2.752760171890259, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:51:45,086 [INFO] 
+Comparison:
+2024-12-30 10:51:45,086 [INFO] CAG vs RAG time difference: -12.68 seconds
+2024-12-30 10:51:45,086 [INFO] ================================================================================
+2024-12-30 10:51:45,086 [INFO] 
+Query 3: Explain how CAG eliminates retrieval steps.
+2024-12-30 10:51:45,086 [INFO] 
+CAG Response:
+2024-12-30 10:51:48,186 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:51:48,188 [INFO] Response: CAG eliminates retrieval steps by preloading knowledge directly into the model's extended context. This means there is no need for real-time document retrieval, which results in reduced latency in response generation and more consistent access to information.
+2024-12-30 10:51:48,188 [INFO] Time taken: 3.10 seconds
+2024-12-30 10:51:48,188 [INFO] Metrics: {'cache_hits': 0, 'response_time': 3.100562572479248, 'memory_usage': 3}
+2024-12-30 10:51:48,188 [INFO] 
+RAG Response:
+2024-12-30 10:51:49,867 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-30 10:51:49,873 [INFO] Response: The context does not provide information on how CAG eliminates retrieval steps.
+2024-12-30 10:51:49,874 [INFO] Time taken: 1.69 seconds
+2024-12-30 10:51:49,874 [INFO] Metrics: {'response_time': 1.6850030422210693, 'num_retrieved': 1, 'retriever_type': 'hybrid'}
+2024-12-30 10:51:49,874 [INFO] 
+Comparison:
+2024-12-30 10:51:49,874 [INFO] CAG vs RAG time difference: -1.42 seconds
+2024-12-30 10:51:49,874 [INFO] ================================================================================

@@ -1,0 +1,31 @@
+Retrieval-Augmented Generation (RAG) Framework Overview
+
+RAG is a powerful framework that combines information retrieval with language model generation. Key components include:
+
+1. Document Retrieval:
+- Real-time document search
+- Multiple retrieval methods (sparse and dense)
+- Dynamic content access
+
+2. Retrieval Methods:
+- BM25 for sparse retrieval
+- Neural embeddings for dense retrieval
+- Hybrid approaches combining both
+
+3. Document Processing:
+- Chunking and indexing
+- Embedding generation
+- Relevance scoring
+
+4. Integration with LLMs:
+- Context augmentation
+- Query reformulation
+- Response generation
+
+5. Technical Implementation:
+- Vector databases
+- Embedding models
+- Ranking algorithms
+
+Advantages and Limitations:
+RAG provides flexibility in accessing up-to-date information but requires additional computational overhead for retrieval. The framework excels in scenarios where information needs to be dynamically accessed or updated.
